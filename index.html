@@ -88,6 +88,7 @@
 </head>
 
 <body>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@4.2.0/dist/model-viewer.min.js"></script>
   <div class="header">
     <h1>开源电路与 SDK 平台</h1>
     <p>硬件设计 · 嵌入式 SDK · 3D 模型可视化 · 开源共享</p>
@@ -100,7 +101,7 @@
     <h2>设备 3D 模型预览（STEP）</h2>
     <div class="model-wrapper">
       <model-viewer
-        src="model.stp"
+        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
         alt="PCB/设备3D模型"
         auto-rotate
         camera-controls
@@ -121,6 +122,6 @@
     <a href="https://github.com/whwlxl" class="button">访问 GitHub</a>
   </div>
 
-  <script type="module" src="model-viewer.min.js"></script>
+  <!--script type="module" src="model-viewer.min.js"></script-->
 </body>
 </html>
